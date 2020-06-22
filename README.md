@@ -1,8 +1,10 @@
-# Status: Archived
-This repository has been archived and is no longer maintained.
+# Open-Source Modifications Made by me:
+1. Updated all the old imports of `android.support.v4` and `android.support.annotations` to the newer AndroidX 
+2. Fixed issue which cause cannot cast ArFragment to Fragment || ArFragment is not a Fragment.
+3. Now it uses Gradle v4.0.0.
+4. Didn't test everything, but if you find something, feel free to halla at issues or fork it. 
 
-![status: inactive](https://img.shields.io/badge/status-inactive-red.svg)
-
+### Actual SDK Readme:
 Sceneform SDK for Android
 =========================
 Copyright (c) 2018 Google Inc.  All rights reserved.
