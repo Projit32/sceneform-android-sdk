@@ -1,10 +1,10 @@
 package com.google.ar.sceneform;
 
+
 import android.annotation.SuppressLint;
 import android.content.Context;
 import android.graphics.drawable.ColorDrawable;
 import android.graphics.drawable.Drawable;
-import android.support.annotation.Nullable;
 import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Choreographer;
@@ -12,9 +12,9 @@ import android.view.MotionEvent;
 import android.view.Surface;
 import android.view.SurfaceView;
 
+import androidx.annotation.Nullable;
+
 import com.google.ar.core.exceptions.CameraNotAvailableException;
-
-
 import com.google.ar.sceneform.rendering.Color;
 import com.google.ar.sceneform.rendering.Renderer;
 import com.google.ar.sceneform.utilities.AndroidPreconditions;
@@ -58,7 +58,7 @@ public class SceneView extends SurfaceView implements Choreographer.FrameCallbac
      * animation update time. The input nano time can be used to ensure that returned times never
      * decrease.
      *
-     * @see {@link SceneView#setAnimationTimeTransformer(AnimationTimeTransformer)}
+     * @see
      * @param choreographerTime the current frame time returned from the {@link Choreographer}.
      */
     long getAnimationTime(long choreographerTime);
